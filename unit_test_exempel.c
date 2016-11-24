@@ -14,7 +14,7 @@
 
 /*Här är först själva funktionen som ska testas. */
 short add_numbers(short a, short b){
-    return a + b;
+    return a + b + 1;
 }
 /*Syfte med test_condition är att testa kravet för ett unikt testfall för ett unit-test*/
 short test_condition_add_numbers(short a, short b, short aReturned){
